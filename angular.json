@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PteroEggs2": {
+    "PteroEggs": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -62,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PteroEggs2:build"
+            "browserTarget": "PteroEggs:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PteroEggs2:build:production"
+              "browserTarget": "PteroEggs:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PteroEggs2:build"
+            "browserTarget": "PteroEggs:build"
           }
         },
         "test": {
@@ -110,15 +111,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "PteroEggs2:serve"
+            "devServerTarget": "PteroEggs:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "PteroEggs2:serve:production"
+              "devServerTarget": "PteroEggs:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "PteroEggs2"
+  "defaultProject": "PteroEggs"
 }
