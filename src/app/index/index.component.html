@@ -1,6 +1,6 @@
 <div class="w-auto ml-5 mr-5 mt-5 text-center">
-  <h1 class="display-4">Coming Soon</h1>
-  <p class="lead">
-    Pterodactyl Eggs is a listing of known eggs that are available on GitHub or the internet in general, including ones from the project team.
-  </p>
+  <div class="row">
+    <app-egg-card *ngFor="let egg of eggService.keys()" [eggKey]="egg" class="col-md-3 col-sm-12 mb-4">
+    </app-egg-card>
+  </div>
 </div>
