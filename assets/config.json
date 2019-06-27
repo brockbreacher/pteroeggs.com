@@ -1,0 +1,17 @@
+{
+  "state_map": {
+    "testing": null,
+    "beta": null,
+    "stable": null,
+    "default": null
+  },
+  "available_tags": [
+    "game-server",
+    "voicechat",
+    "bots",
+    "discord",
+    "minecraft",
+    "source",
+    "official"
+  ]
+}
