@@ -22,7 +22,8 @@ export class ConfigDataService {
   }
 
   public getStateDisplay(state: string): Object {
-    let mappings: Object = this.configData.state_map;
+    let mappings: Object = this.configData['state_map'];
+    
     switch(state.toLowerCase()) {
       case 'development':
         return mappings['development'];
