@@ -1,10 +1,28 @@
 {
-  "state_map": {
-    "testing": null,
-    "beta": null,
-    "stable": null,
-    "default": null
+  "fallback_images": {
+    "official": "./assets/images/fallback-official.jpg",
+    "default": "./assets/images/fallback.png"
   },
+
+  "state_map": {
+    "development": {
+      "text": "Development",
+      "class": "danger"
+    },
+    "beta": {
+      "text": "Beta",
+      "class": "warning"
+    },
+    "stable": {
+      "text": "Stable",
+      "class": "success"
+    },
+    "default": {
+      "text": "Unknown",
+      "class": "secondary"
+    }
+  }, 
+  
   "available_tags": [
     "game-server",
     "voicechat",

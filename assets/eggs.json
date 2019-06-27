@@ -1,3 +1,785 @@
 {
-  
+  "parker-egg-arma3": {
+    "name": "Arma 3",
+    "author": "Parkervcp",
+    "description": "Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single- and multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this is the PC's premier military game. Authentic, diverse, open - Arma 3 sends you to war.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/arma/arma3/egg-arma3.json",
+    "download_name": "egg-arma3",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-arma3-headless-client": {
+    "name": "Arma 3 Headless Client",
+    "author": "Parkervcp",
+    "description": "Headless Clients are used to offload AI calculations from the Arma 3 Server.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3_headless_client",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/arma/arma3_headless_client/egg-arma3-headless-client.json",
+    "download_name": "egg-arma3-headless-client",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-a-t-l-bot": {
+    "name": "ATLBot",
+    "author": "Parkervcp",
+    "description": "ATLbot in ptero\r\n\r\nhttps://github.com/ATLauncher/discord-bot/",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/atlbot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/atlbot/egg-a-t-l-bot.json",
+    "download_name": "egg-a-t-l-bot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-bastion": {
+    "name": "Bastion",
+    "author": "Parkervcp",
+    "description": "Bastion is an all-in-one multipurpose Discord bot that can do a whole bunch of things and its features are expanding daily. Bastion does everything most people will ever need it to do. Check out some feature highlights below to get a peek into the vast feature list of Bastion. And if you think Bastion lacks some feature, please send a suggestion and we will add it to Bastion as soon as possible.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/bastion",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/bastion/egg-bastion.json",
+    "download_name": "egg-bastion",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-discord-js-generic": {
+    "name": "discord.js generic",
+    "author": "Parkervcp",
+    "description": "a generic discord js bot egg\r\n\r\nThis will clone a git repo for a bot. it defaults to master if no branch is specified.\r\n\r\nInstalls the node_modules on install. If you set user_upload then I assume you know what you are doing.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/discord.js",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/discord.js/egg-discord-js-generic.json",
+    "download_name": "egg wq-discord-js-generic",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-fragbot": {
+    "name": "fragbot",
+    "author": "Parkervcp",
+    "description": "The fragforce discord bot.\r\n\r\nlocated at https://github.com/fragforce/fragbot",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/fragbot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/fragbot/egg-fragbot.json",
+    "download_name": "egg-fragbot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-j-music-bot": {
+    "name": "JMusicBot",
+    "author": "Parkervcp",
+    "description": "A Discord music bot that's easy to set up and run yourself!",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/jmusicbot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/jmusicbot/egg-j-music-bot.json",
+    "download_name": "egg-j-music-bot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-parkertron": {
+    "name": "parkertron",
+    "author": "Parkervcp",
+    "description": "The stupid chatbot parkertron by Parkervcp.\r\n\r\nhttps://github.com/parkervcp/parkertron",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/parkertron",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/parkertron/egg-parkertron.json",
+    "download_name": "egg-parkertron",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-pixel-bot": {
+    "name": "pixel-bot",
+    "author": "Parkervcp",
+    "description": "A Discord bot written in Python using discord.py\r\n\r\nhttps://github.com/Ispira/pixel-bot",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/pixelbot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/pixelbot/egg-pixel-bot.json",
+    "download_name": "egg-pixel-bot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-sinusbot": {
+    "name": "Sinusbot",
+    "author": "Parkervcp",
+    "description": "Musicbot for Discord and Teamspeak.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/sinusbot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/sinusbot/egg-sinusbot.json",
+    "download_name": "egg-sinusbot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-j-t-s3-server-mod": {
+    "name": "JTS3ServerMod",
+    "author": "Parkervcp",
+    "description": "Setup:\r\n- Install the latest version\r\n- Go into config/server1 and edit JTS3ServerMod_server.cfg\r\n- Save and start the server\r\n\r\nAuthor: https://www.stefan1200.de/forum/index.php?topic=2.0",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/teamspeak3/jts3servermod",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/teamspeak3/jts3servermod/egg-j-t-s3-server-mod.json",
+    "download_name": "egg-j-t-s3-server-mod",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-conan-exiles": {
+    "name": "Conan Exiles",
+    "author": "Parkervcp",
+    "description": "Conan Exiles is an open-world survival game set in the brutal lands of Conan the Barbarian. Survive in a savage world, build your kingdom, and dominate your enemies in brutal combat and epic warfare.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/conan_exiles/conan_exiles",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/conan_exiles/conan_exiles/egg-conan-exiles.json",
+    "download_name": "egg-conan-exiles",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-don-t-starve": {
+    "name": "Don't Starve",
+    "author": "Parkervcp",
+    "description": "Don’t Starve is an uncompromising wilderness survival game full of science and magic.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/dont_starve/dont_starve",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/dont_starve/dont_starve/egg-don-t-starve.json",
+    "download_name": "egg-don-t-starve",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-e-t-legacy": {
+    "name": "ET Legacy",
+    "author": "Parkervcp",
+    "description": "Welcome to Enemy Territory: Legacy, an open source project that aims to create a fully compatible client and server for the popular online FPS game Wolfenstein: Enemy Territory - whose gameplay is still considered unmatched by many, despite its great age.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/etlegacy/etlegacy",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/etlegacy/etlegacy/egg-e-t-legacy.json",
+    "download_name": "egg-e-t-legacy",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-factorio": {
+    "name": "Factorio",
+    "author": "Parkervcp",
+    "description": "The vanilla Factorio server.\r\n\r\nhttps://www.factorio.com/",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/factorio/factorio",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/factorio/factorio/egg-factorio.json",
+    "download_name": "egg-factorio",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-five-m": {
+    "name": "FiveM",
+    "author": "Parkervcp",
+    "description": "A new FiveM egg for the latest builds due to recent changes in FiveM",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/fivem",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/fivem/egg-five-m.json",
+    "download_name": "egg-five-m",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-multi-theft-auto": {
+    "name": "Multi Theft Auto",
+    "author": "Parkervcp",
+    "description": "What more could you want? Multi Theft Auto provides the best online Grand Theft Auto experience there is. Read on to find out more.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/mtasa",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/mtasa/egg-multi-theft-auto.json",
+    "download_name": "egg-multi-theft-auto",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-conf": {
+    "name": "RAGE:MP Unofficial server",
+    "author": "Parkervcp",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/ragemp",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/ragemp/conf.json",
+    "download_name": "conf",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-rage--m-p": {
+    "name": "Rage.MP",
+    "author": "Parkervcp",
+    "description": "https://rage.mp/\r\n\r\nThis server requires 2 ports to be added for the server. the main port and the next (port+1) as ports for the server.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/ragemp",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/ragemp/egg-rage--m-p.json",
+    "download_name": "egg-rage--m-p",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-sa-mp": {
+    "name": "SA-MP",
+    "author": "Parkervcp",
+    "description": "SA-MP is a free Massively Multiplayer Online game mod for the PC version of Rockstar Games Grand Theft Auto: San Andreas (tm).",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/samp",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/samp/egg-sa-mp.json",
+    "download_name": "egg-sa-mp",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-vanilla-bedrock": {
+    "name": "Vanilla Bedrock",
+    "author": "Parkervcp",
+    "description": "Bedrock Edition (also known as the Bedrock Version, Bedrock Codebase, Bedrock Engine or just Bedrock) refers to the multi-platform family of editions of Minecraft developed by Mojang AB, Microsoft Studios, 4J Studios, and SkyBox Labs. Prior to this term, as the engine originated with Pocket Edition, this entire product family was referred to as \"Pocket Edition\", \"MCPE\", or \"Pocket/Windows 10 Edition\".",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_bedrock/bedrock",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_bedrock/bedrock/egg-vanilla-bedrock.json",
+    "download_name": "egg-vanilla-bedrock",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-nukkit": {
+    "name": "Nukkit",
+    "author": "Parkervcp",
+    "description": "Nukkit is a Nuclear-Powered Server Software For Minecraft: Pocket Edition\r\n\r\nhttps://nukkit.io/",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_bedrock/nukkit",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_bedrock/nukkit/egg-nukkit.json",
+    "download_name": "egg-nukkit",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-pocketmine-m-p": {
+    "name": "PocketmineMP",
+    "author": "Parkervcp",
+    "description": "Pocketmine Egg\r\nby onekintaro from swisscrafting.ch\r\nwith the nice help from #eggs Channel on Pterodactyl-Discord :)",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_bedrock/pocketmine_mp",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_bedrock/pocketmine_mp/egg-pocketmine-m-p.json",
+    "download_name": "egg-pocketmine-m-p",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-forge-enhanced": {
+    "name": "Forge Enhanced",
+    "author": "Parkervcp",
+    "description": "Minecraft Forge Server. Minecraft Forge is a modding API (Application Programming Interface), which makes it easier to create mods, and also make sure mods are compatible with each other.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/forge/forge-generic",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/forge/forge-generic/egg-forge-enhanced.json",
+    "download_name": "egg-forge-enhanced",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-forge-generic": {
+    "name": "Forge Generic",
+    "author": "Parkervcp",
+    "description": "A generic egg for a forge modpack",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/forge/forge-mod-generic",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/forge/forge-mod-generic/egg-forge-generic.json",
+    "download_name": "egg-forge-generic",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-feed-the-beast": {
+    "name": "Feed the Beast",
+    "author": "Parkervcp",
+    "description": "Egg to handle all official FTB Modpacks",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/ftb/feed-the-beast",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/ftb/feed-the-beast/egg-feed-the-beast.json",
+    "download_name": "egg-feed-the-beast",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-f-t-b-revelation": {
+    "name": "FTB Revelation",
+    "author": "Parkervcp",
+    "description": "Revelation is a general all-purpose pack that is designed for solo play as well as small and medium population servers. This pack contains a mix of magic, tech and exploration mods, and is the largest pack ever built and released by the Feed The Beast Team.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/ftb/ftb-revelation",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/ftb/ftb-revelation/egg-f-t-b-revelation.json",
+    "download_name": "egg-f-t-b-revelation",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-paper": {
+    "name": "Paper",
+    "author": "Parkervcp",
+    "description": "High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/paper",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/paper/egg-paper.json",
+    "download_name": "egg-paper",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-spigot": {
+    "name": "Spigot",
+    "author": "Parkervcp",
+    "description": "Spigot is the most widely-used modded Minecraft server software in the world. It powers many of the top Minecraft server networks around to ensure they can cope with their huge player base and ensure the satisfaction of their players. Spigot works by reducing and eliminating many causes of lag, as well as adding in handy features and settings that help make your job of server administration easier.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/spigot/spigot",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/spigot/spigot/egg-spigot.json",
+    "download_name": "egg-spigot",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-attack-of-the-b--team": {
+    "name": "Attack of the B-Team",
+    "author": "Parkervcp",
+    "description": "This modpack was designed with one thing in mind, crazy mad science! With the help of the B-Team we hand picked the wackiest mods we could find and shoved them all in a modpack for you guys. The result is Attack of the B-Team!",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/attack-of-the-bteam",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/technic/attack-of-the-bteam/egg-attack-of-the-b--team.json",
+    "download_name": "egg-attack-of-the-b--team",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-blightfall": {
+    "name": "Blightfall",
+    "author": "Parkervcp",
+    "description": "Blightfall is a combination modpack and adventure map about surviving on an alien planet. It uses magic mods and tech mods to create a novel gameplay experience. Can you survive on a world completely covered by Thaumcraft taint?\r\n\r\nhttps://www.technicpack.net/modpack/blightfall.592618",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/blightfall",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/technic/blightfall/egg-blightfall.json",
+    "download_name": "egg-blightfall",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-hexxit": {
+    "name": "Hexxit",
+    "author": "Parkervcp",
+    "description": "Gear up and set forth on a campaign worthy of legend, for Hexxit has been unearthed! Dark dungeons, towering spires, weathered ruins and musty tomes lay before you. Lay claim to riches or create your own artifacts, tame beasts and carve out your own story in endless wonder. Alone or with friends, adventure awaits in Hexxit.\r\n\r\nHexxit is a new collection of mods for Minecraft that put adventure above all else, in the style of old Dungeons and Dragons campaigns. Exploration is interesting, the dangers are greater and the sense of satisfaction of clearing out a dungeon is intense. The modlist is full of quality content from some very talented individuals. Be sure to head over to the donate page and show your appreciation!\r\n\r\nhttps://www.technicpack.net/modpack/hexxit.552552",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/hexxit",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/technic/hexxit/egg-hexxit.json",
+    "download_name": "egg-hexxit",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-tekkit-legends": {
+    "name": "Tekkit Legends",
+    "author": "Parkervcp",
+    "description": "The ancient power of Tekkits past return in this legendary pack! Wield the philosopher's stone, ride the rails, breed the bees, and much, much more! This pack will remind you of what you've always loved about Tekkit, while bringing you new mods to discover and enjoy!\r\n\r\nhttps://www.technicpack.net/modpack/tekkit-legends.735902",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/tekkit-legends",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/technic/tekkit-legends/egg-tekkit-legends.json",
+    "download_name": "egg-tekkit-legends",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-vanilla-cord": {
+    "name": "VanillaCord",
+    "author": "Parkervcp",
+    "description": "Minecraft is a game about placing blocks and going on adventures. Explore randomly generated worlds and build amazing things from the simplest of homes to the grandest of castles. Play in Creative Mode with unlimited resources or mine deep in Survival Mode, crafting weapons and armor to fend off dangerous mobs. Do all this alone or with friends.\r\n\r\nVanillaCord adds support for BungeeCord's ip_forward setting.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/vanillacord",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_java/vanillacord/egg-vanilla-cord.json",
+    "download_name": "egg-vanilla-cord",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-waterfall": {
+    "name": "Waterfall",
+    "author": "Parkervcp",
+    "description": "Waterfall is a fork of the well-known BungeeCord server teleportation suite.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_proxy/waterfall",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/minecraft_proxy/waterfall/egg-waterfall.json",
+    "download_name": "egg-waterfall",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-m--b-warband": {
+    "name": "M&B Warband",
+    "author": "Parkervcp",
+    "description": "Mount & Blade Warband server",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/mount_and_blade/warband",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/mount_and_blade/warband/egg-m--b-warband.json",
+    "download_name": "egg-m--b-warband",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-open-t-t-d-server": {
+    "name": "OpenTTD Server",
+    "author": "Parkervcp",
+    "description": "OpenTTD is an open source simulation game based upon the popular Microprose game \"Transport Tycoon Deluxe\", written by Chris Sawyer. It attempts to mimic the original game as closely as possible while extending it with new features.\r\n\r\nOpenTTD is modelled after the original Transport Tycoon game by Chris Sawyer and enhances the game experience dramatically. Many features were inspired by TTDPatch while others are original.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/openttd/openttd",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/openttd/openttd/egg-open-t-t-d-server.json",
+    "download_name": "egg-open-t-t-d-server",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-7-days-to-die": {
+    "name": "7 Days To Die",
+    "author": "Parkervcp",
+    "description": "7 days to die server",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/source_servers/7_days_to_die",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/source_servers/7_days_to_die/egg-7-days-to-die.json",
+    "download_name": "egg-7-days-to-die",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-ark--survival-evolved": {
+    "name": "Ark: Survival Evolved",
+    "author": "Parkervcp",
+    "description": "As a man or woman stranded, naked, freezing, and starving on the unforgiving shores of a mysterious island called ARK, use your skill and cunning to kill or tame and ride the plethora of leviathan dinosaurs and other primeval creatures roaming the land. Hunt, harvest resources, craft items, grow crops, research technologies, and build shelters to withstand the elements and store valuables, all while teaming up with (or preying upon) hundreds of other players to survive, dominate... and escape! — Gamepedia: ARK",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/stock-eggs/source/ark",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/stock-eggs/source/ark/egg-ark--survival-evolved.json",
+    "download_name": "egg-ark--survival-evolved",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-pix-a-r-k": {
+    "name": "PixARK",
+    "author": "Parkervcp",
+    "description": "A simple Docker container with Wine to run PixARK using Pterodactyl Panel",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/source_servers/pixark",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/source_servers/pixark/egg-pix-a-r-k.json",
+    "download_name": "egg-pix-a-r-k",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-rust-staging": {
+    "name": "Rust Staging",
+    "author": "Parkervcp",
+    "description": "The only aim in Rust is to survive. To do this you will need to overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals for meat. Protect yourself from other players, and kill them for meat. Create alliances with other players and form a town. Do whatever it takes to survive.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/source_servers/rust-staging",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/source_servers/rust-staging/egg-rust-staging.json",
+    "download_name": "egg-rust-staging",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-starbound": {
+    "name": "Starbound",
+    "author": "Parkervcp",
+    "description": "Starbound takes place in a two-dimensional, procedurally generated universe which the player is able to explore in order to obtain new weapons, armor, and items, and to visit towns and villages inhabited by various intelligent lifeforms.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/source_servers/starbound",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/source_servers/starbound/egg-starbound.json",
+    "download_name": "egg-starbound",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-squad": {
+    "name": "Squad",
+    "author": "Parkervcp",
+    "description": "Squad is a 50 vs 50 multiplayer first-person shooter that aims to capture combat realism through communication and teamplay. Major features include vehicle-based combined arms gameplay, large scale environments, base building, and integrated positional VoIP for proximity talking & radio.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/squad/squad",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/squad/squad/egg-squad.json",
+    "download_name": "egg-squad",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-rust": {
+    "name": "Rust",
+    "author": "Parkervcp",
+    "description": "The only aim in Rust is to survive. To do this you will need to overcome struggles such as hunger, thirst and cold. Build a fire. Build a shelter. Kill animals for meat. Protect yourself from other players, and kill them for meat. Create alliances with other players and form a town. Do whatever it takes to survive.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/stock-eggs/source/rust",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/stock-eggs/source/rust/egg-rust.json",
+    "download_name": "egg-rust",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-t-modloader": {
+    "name": "tModloader",
+    "author": "Parkervcp",
+    "description": "tModLoader is essentially a mod that provides a way to load your own mods without having to work directly with Terraria's source code itself. This means you can easily make mods that are compatible with other people's mods, save yourself the trouble of having to decompile and recompile Terraria.exe, and escape from having to understand all of the obscure \"intricacies\" of Terraria's source code. It is made to work for Terraria 1.3+.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/terraria/tmodloader",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/terraria/tmodloader/egg-t-modloader.json",
+    "download_name": "egg-t-modloader",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-tshock": {
+    "name": "tshock",
+    "author": "Parkervcp",
+    "description": "The t-shock modded terraria server.\r\n\r\nhttps://tshock.co/",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/terraria/tshock",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/terraria/tshock/egg-tshock.json",
+    "download_name": "egg-tshock",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-tower-unite": {
+    "name": "Tower Unite",
+    "author": "Parkervcp",
+    "description": "Tower Unite\r\n\r\nDefault Port: 7778\r\nDefault Query Port: 27016\r\n\r\nConfig Path: Tower/Saved/Config/TowerServer.ini",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/unreal_engine/tower_unite",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/unreal_engine/tower_unite/egg-tower-unite.json",
+    "download_name": "egg-tower-unite",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-rocketmod": {
+    "name": "RocketMod",
+    "author": "Parkervcp",
+    "description": "The RocketMod server mod for Unturned.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/unturned/rocketmod",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/unturned/rocketmod/egg-rocketmod.json",
+    "download_name": "egg-rocketmod",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  },
+  "parker-egg-xonotic": {
+    "name": "Xonotic",
+    "author": "Parkervcp",
+    "description": "This is for the default xonotic setup.",
+    "official": true,
+    "homepage": "https://github.com/parkervcp/eggs/tree/master/xonotic/xonotic",
+    "image": null,
+    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/xonotic/xonotic/egg-xonotic.json",
+    "download_name": "egg-xonotic",
+    "price": null,
+    "state": "stable",
+    "tags": [
+      "game-server",
+      "official"
+    ]
+  }
 }
