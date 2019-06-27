@@ -1,0 +1,30 @@
+<div class="card h-100 shadow-sm">
+  <img src="{{ getCardImage() }}" class="card-img-top">
+  <div class="card-body">
+    <h4 class="card-title">
+      {{ egg.name }}
+
+      <span *ngIf="egg.official" class="badge badge-primary p-2 rounded-0 mr-2">
+        <fa-icon [icon]="['fas', 'check']" title="Official Pterodactyl Egg"></fa-icon>
+      </span>
+
+      <span class="badge badge-{{ getState().class }} p-2 rounded-0">{{ getState().text }}</span>
+    </h4>
+
+    <h5 class="card-title">By {{ egg.author }}</h5>
+    
+    <h5 *ngIf="egg.price != null"><span class="badge badge-info p-2 rounded-0">{{ egg.price }}</span></h5>
+    
+    <p>{{ egg.description }}</p>
+
+    <div>
+      <a *ngIf="egg.homepage != null" href="{{ egg.homepage }}" target="_blank" class="btn btn-outline-dark btn-sm rounded-0 mr-3"><fa-icon [icon]="['fas', 'globe-americas']" class="mr-1"></fa-icon> Website</a>
+      <a *ngIf="egg.download_json != null" [href]="jsonUrl" download="{{ egg.download_name }}.json" class="btn btn-outline-dark btn-sm rounded-0"><fa-icon [icon]="['fas', 'download']" class="mr-1"></fa-icon> Download Egg JSON</a>
+    </div>
+
+    <div class="mt-4">
+      <div class="text-muted text-uppercase">Tags</div>
+      <span class="text-muted" *ngFor="let tag of egg.tags; last as isLast">{{ isLast ? tag : tag + ', ' }}</span>
+    </div>
+  </div>
+</div>
