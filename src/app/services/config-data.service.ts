@@ -35,4 +35,8 @@ export class ConfigDataService {
         return mappings['default'];
     }
   }
+
+  public getAvailableTags(): Object {
+    return this.configData['available_tags'];
+  }
 }
