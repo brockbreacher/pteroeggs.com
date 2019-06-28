@@ -7,7 +7,7 @@ import { EggDataService } from '../services/egg-data.service';
   styleUrls: ['./index.component.scss']
 })
 export class IndexComponent implements OnInit {
-  constructor(private eggService: EggDataService) { }
+  constructor(public eggService: EggDataService) { }
 
   ngOnInit() {
   }
