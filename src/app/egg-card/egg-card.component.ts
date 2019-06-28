@@ -20,8 +20,8 @@ export class EggCardComponent implements OnInit {
   ngOnInit() {
     this.egg = this.eggService.get(this.eggKey);
 
-    if (this.egg.download_json != null) {
-      this.http.get(this.egg.download_json).subscribe((data: Object) => {
+    if (this.egg['download_json'] != null) {
+      this.http.get(this.egg['download_json']).subscribe((data: Object) => {
         let blob = new Blob([JSON.stringify(data)], { type: 'application/json'});
 
         this.jsonUrl = this.sanitizer.bypassSecurityTrustResourceUrl(window.URL.createObjectURL(blob));
@@ -30,18 +30,18 @@ export class EggCardComponent implements OnInit {
   }
 
   getCardImage() {
-    if (this.egg.image == null) {
-      if (this.egg.official) {
+    if (this.egg['image'] == null) {
+      if (this.egg['official']) {
         return this.configService.getFallbackImages()['official'];
       } else {
         return this.configService.getFallbackImages()['default'];
       }
     }
 
-    return this.egg.image;
+    return this.egg['image'];
   }
 
   getState() {
-    return this.configService.getStateDisplay(this.egg.state);
+    return this.configService.getStateDisplay(this.egg['state']);
   }
 }
