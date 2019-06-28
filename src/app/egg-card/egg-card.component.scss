@@ -1,7 +1,13 @@
+.card {
+  text-align: left !important;
+  border-radius: 1rem !important;
+}
+
 .card-title {
   font-weight: 300;
 }
 
-.card {
-  text-align: left!important;
+.card-img-top {
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
 }
