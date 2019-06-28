@@ -5,7 +5,7 @@
     "description": "Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single- and multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this is the PC's premier military game. Authentic, diverse, open - Arma 3 sends you to war.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3",
-    "image": null,
+    "image": "https://images.alphacoders.com/716/716305.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/arma/arma3/egg-arma3.json",
     "download_name": "egg-arma3",
     "price": null,
@@ -21,7 +21,7 @@
     "description": "Headless Clients are used to offload AI calculations from the Arma 3 Server.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3_headless_client",
-    "image": null,
+    "image": "https://images.alphacoders.com/716/716305.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/arma/arma3_headless_client/egg-arma3-headless-client.json",
     "download_name": "egg-arma3-headless-client",
     "price": null,
@@ -37,13 +37,14 @@
     "description": "ATLbot in ptero\r\n\r\nhttps://github.com/ATLauncher/discord-bot/",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/atlbot",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/atlbot/egg-a-t-l-bot.json",
     "download_name": "egg-a-t-l-bot",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -53,13 +54,14 @@
     "description": "Bastion is an all-in-one multipurpose Discord bot that can do a whole bunch of things and its features are expanding daily. Bastion does everything most people will ever need it to do. Check out some feature highlights below to get a peek into the vast feature list of Bastion. And if you think Bastion lacks some feature, please send a suggestion and we will add it to Bastion as soon as possible.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/bastion",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/bastion/egg-bastion.json",
     "download_name": "egg-bastion",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -69,13 +71,14 @@
     "description": "a generic discord js bot egg\r\n\r\nThis will clone a git repo for a bot. it defaults to master if no branch is specified.\r\n\r\nInstalls the node_modules on install. If you set user_upload then I assume you know what you are doing.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/discord.js",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/discord.js/egg-discord-js-generic.json",
     "download_name": "egg wq-discord-js-generic",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -85,13 +88,14 @@
     "description": "The fragforce discord bot.\r\n\r\nlocated at https://github.com/fragforce/fragbot",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/fragbot",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/fragbot/egg-fragbot.json",
     "download_name": "egg-fragbot",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -101,13 +105,14 @@
     "description": "A Discord music bot that's easy to set up and run yourself!",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/jmusicbot",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/jmusicbot/egg-j-music-bot.json",
     "download_name": "egg-j-music-bot",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -117,13 +122,14 @@
     "description": "The stupid chatbot parkertron by Parkervcp.\r\n\r\nhttps://github.com/parkervcp/parkertron",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/parkertron",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/parkertron/egg-parkertron.json",
     "download_name": "egg-parkertron",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -133,13 +139,14 @@
     "description": "A Discord bot written in Python using discord.py\r\n\r\nhttps://github.com/Ispira/pixel-bot",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/pixelbot",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/pixelbot/egg-pixel-bot.json",
     "download_name": "egg-pixel-bot",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -149,13 +156,14 @@
     "description": "Musicbot for Discord and Teamspeak.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/sinusbot",
-    "image": null,
+    "image": "https://i.redd.it/tg6ywannyyf01.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/discord/sinusbot/egg-sinusbot.json",
     "download_name": "egg-sinusbot",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "bots",
+      "discord",
       "official"
     ]
   },
@@ -165,13 +173,13 @@
     "description": "Setup:\r\n- Install the latest version\r\n- Go into config/server1 and edit JTS3ServerMod_server.cfg\r\n- Save and start the server\r\n\r\nAuthor: https://www.stefan1200.de/forum/index.php?topic=2.0",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/teamspeak3/jts3servermod",
-    "image": null,
+    "image": "https://foxinou.fr/wp-content/uploads/2013/06/maxresdefault.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/bots/teamspeak3/jts3servermod/egg-j-t-s3-server-mod.json",
     "download_name": "egg-j-t-s3-server-mod",
     "price": null,
     "state": "stable",
     "tags": [
-      "game-server",
+      "voicechat",
       "official"
     ]
   },
@@ -181,13 +189,14 @@
     "description": "Conan Exiles is an open-world survival game set in the brutal lands of Conan the Barbarian. Survive in a savage world, build your kingdom, and dominate your enemies in brutal combat and epic warfare.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/conan_exiles/conan_exiles",
-    "image": null,
+    "image": "https://stmed.net/sites/default/files/conan-exiles-hd-wallpapers-32909-7318196.jpg",
     "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/conan_exiles/conan_exiles/egg-conan-exiles.json",
     "download_name": "egg-conan-exiles",
     "price": null,
     "state": "stable",
     "tags": [
       "game-server",
+      "source",
       "official"
     ]
   },
