@@ -1,7 +1,7 @@
 {
   "parker-egg-arma3": {
-    "name": "Arma 3",
-    "author": "Parkervcp",
+    "name": "Arma III",
+    "author": "Daave",
     "description": "Experience true combat gameplay in a massive military sandbox. Deploying a wide variety of single- and multiplayer content, over 20 vehicles and 40 weapons, and limitless opportunities for content creation, this is the PC's premier military game. Authentic, diverse, open - Arma 3 sends you to war.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3",
@@ -16,8 +16,8 @@
     ]
   },
   "parker-egg-arma3-headless-client": {
-    "name": "Arma 3 Headless Client",
-    "author": "Parkervcp",
+    "name": "Arma III Headless Client",
+    "author": "Brainp4in",
     "description": "Headless Clients are used to offload AI calculations from the Arma 3 Server.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/arma/arma3_headless_client",
@@ -33,7 +33,7 @@
   },
   "parker-egg-a-t-l-bot": {
     "name": "ATLBot",
-    "author": "Parkervcp",
+    "author": "Jfeldt19",
     "description": "ATLbot in ptero\r\n\r\nhttps://github.com/ATLauncher/discord-bot/",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/discord/atlbot",
@@ -161,7 +161,7 @@
   },
   "parker-egg-j-t-s3-server-mod": {
     "name": "JTS3ServerMod",
-    "author": "Parkervcp",
+    "author": "NgLoader",
     "description": "Setup:\r\n- Install the latest version\r\n- Go into config/server1 and edit JTS3ServerMod_server.cfg\r\n- Save and start the server\r\n\r\nAuthor: https://www.stefan1200.de/forum/index.php?topic=2.0",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/bots/teamspeak3/jts3servermod",
@@ -177,7 +177,7 @@
   },
   "parker-egg-conan-exiles": {
     "name": "Conan Exiles",
-    "author": "Parkervcp",
+    "author": "Brycea",
     "description": "Conan Exiles is an open-world survival game set in the brutal lands of Conan the Barbarian. Survive in a savage world, build your kingdom, and dominate your enemies in brutal combat and epic warfare.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/conan_exiles/conan_exiles",
@@ -257,7 +257,7 @@
   },
   "parker-egg-multi-theft-auto": {
     "name": "Multi Theft Auto",
-    "author": "Parkervcp",
+    "author": "Shirobaka",
     "description": "What more could you want? Multi Theft Auto provides the best online Grand Theft Auto experience there is. Read on to find out more.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/mtasa",
@@ -271,24 +271,9 @@
       "official"
     ]
   },
-  "parker-conf": {
-    "name": "RAGE:MP Unofficial server",
-    "author": "Parkervcp",
-    "official": true,
-    "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/ragemp",
-    "image": null,
-    "download_json": "https://raw.githubusercontent.com/parkervcp/eggs/master/gta/ragemp/conf.json",
-    "download_name": "conf",
-    "price": null,
-    "state": "stable",
-    "tags": [
-      "game-server",
-      "official"
-    ]
-  },
   "parker-egg-rage--m-p": {
     "name": "Rage.MP",
-    "author": "Parkervcp",
+    "author": "Antonand03",
     "description": "https://rage.mp/\r\n\r\nThis server requires 2 ports to be added for the server. the main port and the next (port+1) as ports for the server.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/ragemp",
@@ -304,7 +289,7 @@
   },
   "parker-egg-sa-mp": {
     "name": "SA-MP",
-    "author": "Parkervcp",
+    "author": "Bl4ckspr4y",
     "description": "SA-MP is a free Massively Multiplayer Online game mod for the PC version of Rockstar Games Grand Theft Auto: San Andreas (tm).",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/gta/samp",
@@ -400,7 +385,7 @@
   },
   "parker-egg-feed-the-beast": {
     "name": "Feed the Beast",
-    "author": "Parkervcp",
+    "author": "StealWonders",
     "description": "Egg to handle all official FTB Modpacks",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/ftb/feed-the-beast",
@@ -416,7 +401,7 @@
   },
   "parker-egg-f-t-b-revelation": {
     "name": "FTB Revelation",
-    "author": "Parkervcp",
+    "author": "StealWonders",
     "description": "Revelation is a general all-purpose pack that is designed for solo play as well as small and medium population servers. This pack contains a mix of magic, tech and exploration mods, and is the largest pack ever built and released by the Feed The Beast Team.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/ftb/ftb-revelation",
@@ -448,7 +433,7 @@
   },
   "parker-egg-spigot": {
     "name": "Spigot",
-    "author": "Parkervcp",
+    "author": "Pterodactyl",
     "description": "Spigot is the most widely-used modded Minecraft server software in the world. It powers many of the top Minecraft server networks around to ensure they can cope with their huge player base and ensure the satisfaction of their players. Spigot works by reducing and eliminating many causes of lag, as well as adding in handy features and settings that help make your job of server administration easier.",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/spigot/spigot",
@@ -464,7 +449,7 @@
   },
   "parker-egg-attack-of-the-b--team": {
     "name": "Attack of the B-Team",
-    "author": "Parkervcp",
+    "author": "ZeProf2Coding",
     "description": "This modpack was designed with one thing in mind, crazy mad science! With the help of the B-Team we hand picked the wackiest mods we could find and shoved them all in a modpack for you guys. The result is Attack of the B-Team!",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/attack-of-the-bteam",
@@ -480,7 +465,7 @@
   },
   "parker-egg-blightfall": {
     "name": "Blightfall",
-    "author": "Parkervcp",
+    "author": "StealWonders",
     "description": "Blightfall is a combination modpack and adventure map about surviving on an alien planet. It uses magic mods and tech mods to create a novel gameplay experience. Can you survive on a world completely covered by Thaumcraft taint?\r\n\r\nhttps://www.technicpack.net/modpack/blightfall.592618",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/blightfall",
@@ -496,7 +481,7 @@
   },
   "parker-egg-hexxit": {
     "name": "Hexxit",
-    "author": "Parkervcp",
+    "author": "StealWonders",
     "description": "Gear up and set forth on a campaign worthy of legend, for Hexxit has been unearthed! Dark dungeons, towering spires, weathered ruins and musty tomes lay before you. Lay claim to riches or create your own artifacts, tame beasts and carve out your own story in endless wonder. Alone or with friends, adventure awaits in Hexxit.\r\n\r\nHexxit is a new collection of mods for Minecraft that put adventure above all else, in the style of old Dungeons and Dragons campaigns. Exploration is interesting, the dangers are greater and the sense of satisfaction of clearing out a dungeon is intense. The modlist is full of quality content from some very talented individuals. Be sure to head over to the donate page and show your appreciation!\r\n\r\nhttps://www.technicpack.net/modpack/hexxit.552552",
     "official": true,
     "homepage": "https://github.com/parkervcp/eggs/tree/master/minecraft_java/technic/hexxit",
