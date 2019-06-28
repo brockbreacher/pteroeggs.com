@@ -1,5 +1,5 @@
 {
-  "name": "ptero-eggs2",
+  "name": "ptero-eggs",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghd": "ng build --prod --base-href \"https://pteroeggs.com\" && ngh"
+    "buildgh": "ng build --prod --base-href \"https://pteroeggs.com\"",
+    "ghd": "npm run buildgh && ngh"
   },
   "private": true,
   "dependencies": {
