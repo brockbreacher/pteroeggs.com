@@ -17,7 +17,7 @@
     
     <p>{{ egg.description }}</p>
 
-    <div class="mt-auto">
+    <div class="mt-auto text-center">
       <a *ngIf="egg.homepage != null" [href]="egg.homepage" target="_blank" class="btn btn-dark btn-sm mr-3"><fa-icon [icon]="['fas', 'globe-americas']" class="mr-1"></fa-icon> Website</a>
       <a *ngIf="egg.download_json != null" [href]="jsonUrl" [download]="egg.download_name + '.json'" class="btn btn-dark btn-sm"><fa-icon [icon]="['fas', 'download']" class="mr-1"></fa-icon> Download Egg JSON</a>
     </div>
