@@ -2,8 +2,8 @@
   <img [src]="getCardImage()" class="card-img-top">
   <div class="card-body d-flex flex-column">
     <h4 class="card-title">
-      {{ egg.name }}
-      <fa-layers *ngIf="egg.official" [fixedWidth]="false" title="Official Egg">
+      {{ egg['name'] }}
+      <fa-layers *ngIf="egg['official']" [fixedWidth]="false" title="Official Egg">
         <fa-icon [icon]="['fas', 'certificate']" class="text-info"></fa-icon>
         <fa-icon [inverse]="true" [icon]="['fas', 'check']" transform="shrink-10"></fa-icon>
       </fa-layers>
@@ -11,20 +11,20 @@
       <span [class]="'badge badge-' + getState()['class'] + ' p-2 float-right'">{{ getState()['text'] }}</span>
     </h4>
 
-    <h5 class="card-title">By {{ egg.author }}</h5>
+    <h5 class="card-title">By {{ egg['author'] }}</h5>
     
-    <h5 *ngIf="egg.price != null"><span class="badge badge-info p-2">{{ egg.price }}</span></h5>
+    <h5 *ngIf="egg['price'] != null"><span class="badge badge-info p-2">{{ egg['price'] }}</span></h5>
     
-    <p>{{ egg.description }}</p>
+    <p>{{ egg['description'] }}</p>
 
     <div class="mt-auto text-center">
-      <a *ngIf="egg.homepage != null" [href]="egg.homepage" target="_blank" class="btn btn-dark btn-sm mr-3"><fa-icon [icon]="['fas', 'globe-americas']" class="mr-1"></fa-icon> Website</a>
-      <a *ngIf="egg.download_json != null" [href]="jsonUrl" [download]="egg.download_name + '.json'" class="btn btn-dark btn-sm"><fa-icon [icon]="['fas', 'download']" class="mr-1"></fa-icon> Download Egg JSON</a>
+      <a *ngIf="egg['homepage'] != null" [href]="egg['homepage']" target="_blank" class="btn btn-dark btn-sm mr-3"><fa-icon [icon]="['fas', 'globe-americas']" class="mr-1"></fa-icon> Website</a>
+      <a *ngIf="egg['download_json'] != null" [href]="jsonUrl" [download]="egg['download_name'] + '.json'" class="btn btn-dark btn-sm"><fa-icon [icon]="['fas', 'download']" class="mr-1"></fa-icon> Download Egg JSON</a>
     </div>
 
     <!--<div class="mt-4">
       <div class="text-muted text-uppercase">Tags</div>
-      <span class="text-muted" *ngFor="let tag of egg.tags; last as isLast">{{ isLast ? tag : tag + ', ' }}</span>
+      <span class="text-muted" *ngFor="let tag of egg['tags']; last as isLast">{{ isLast ? tag : tag + ', ' }}</span>
     </div>-->
   </div>
 </div>
