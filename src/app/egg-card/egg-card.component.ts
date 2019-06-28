@@ -19,6 +19,7 @@ export class EggCardComponent implements OnInit {
 
   ngOnInit() {
     this.egg = this.eggService.get(this.eggKey);
+    this.originalEgg = this.egg;
 
     if (this.egg['download_json'] != null) {
       this.http.get(this.egg['download_json']).subscribe((data: Object) => {
