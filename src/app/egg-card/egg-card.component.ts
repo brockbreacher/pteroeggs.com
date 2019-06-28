@@ -30,7 +30,7 @@ export class EggCardComponent implements OnInit {
     }
   }
 
-  getCardImage() {
+  getCardImage(): string {
     if (this.egg['image'] == null) {
       if (this.egg['official']) {
         return this.configService.getFallbackImages()['official'];
@@ -42,7 +42,7 @@ export class EggCardComponent implements OnInit {
     return this.egg['image'];
   }
 
-  getState() {
+  getState(): Object {
     return this.configService.getStateDisplay(this.egg['state']);
   }
 }
