@@ -10,9 +10,9 @@ import { ConfigDataService } from '../services/config-data.service';
   styleUrls: ['./egg-card.component.scss']
 })
 export class EggCardComponent implements OnInit {
-  public originalEgg;
-  public egg;
-  public jsonUrl;
+  public originalEgg: Object;
+  public egg: Object;
+  public jsonUrl: Object;
   @Input() eggKey: string;
 
   constructor(private eggService: EggDataService, private configService: ConfigDataService, private http: HttpClient, private sanitizer: DomSanitizer) {}
