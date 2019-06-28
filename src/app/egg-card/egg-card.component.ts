@@ -10,7 +10,6 @@ import { ConfigDataService } from '../services/config-data.service';
   styleUrls: ['./egg-card.component.scss']
 })
 export class EggCardComponent implements OnInit {
-  public originalEgg: Object;
   public egg: Object;
   public jsonUrl: Object;
   @Input() eggKey: string;
@@ -19,7 +18,6 @@ export class EggCardComponent implements OnInit {
 
   ngOnInit() {
     this.egg = this.eggService.get(this.eggKey);
-    this.originalEgg = this.egg;
 
     if (this.egg['download_json'] != null) {
       this.http.get(this.egg['download_json']).subscribe((data: Object) => {
