@@ -36,7 +36,7 @@ export class ConfigDataService {
     }
   }
 
-  public getAvailableTags(): Object {
-    return this.configData['available_tags'];
+  public getAvailableTags(): Array<string> {
+    return this.configData['available_tags'] as Array<string>;
   }
 }
