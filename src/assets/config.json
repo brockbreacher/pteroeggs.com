@@ -31,5 +31,15 @@
     "minecraft",
     "source",
     "official"
-  ]
+  ],
+
+  "tags_display": {
+    "game-server": "Game Server",
+    "voicechat": "Voicechat",
+    "bots": "Bots",
+    "discord": "Discord",
+    "minecraft": "Minecraft",
+    "source": "Source",
+    "official": "Official"
+  }
 }
