@@ -2,5 +2,7 @@
   <div class="row">
     <app-egg-card *ngFor="let egg of eggService.keys()" [eggKey]="egg" class="col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-5">
     </app-egg-card>
+    
+    <h3 *ngIf="eggService.keys().length < 1" class="col col-offset-4 font-weight-lighter text-center">No eggs available. Please adjust your filter or search parameters.</h3>
   </div>
 </div>
