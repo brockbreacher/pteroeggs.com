@@ -32,12 +32,25 @@ export class EggDataService {
     return this.eggData[key];
   }
 
-  public filterByTag(tag: string): void {
+  public reset(): void {
     this.eggData = this.originalEggData;
+  }
+
+  public filterByTag(tag: string): void {
     let availableTags = this.configService.getAvailableTags();
 
-    Object.keys(this.eggData).forEach((eggKey: string) => {
-      console.log(eggKey);
+    if (!availableTags.includes(tag)) {
+      return;
+    }
+
+    this.eggData = {};
+
+    Object.keys(this.originalEggData).forEach((eggKey: string) => {
+      let eggObj = this.originalEggData[eggKey];
+
+      if (eggObj['tags'].includes(tag)) {
+        this.eggData[eggKey] = eggObj;
+      }
     });
   }
 }
